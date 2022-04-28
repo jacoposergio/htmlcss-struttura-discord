@@ -81,7 +81,7 @@ header {
             display: flex;
             }
 
-            .section-container.uno{
+            .section-container{
             background-color: yellow;
             border: 1px dotted red;
             width: 40%;
@@ -111,18 +111,8 @@ header {
                 /* TEST  */
                 height: 250px;
             }
-            
-            .section-container.due{
-                background-color: rgb(177, 177, 65);
-                border: 1px dotted red;
-                width: 40%;
-                margin: auto;
-                display: flex;
-                flex-direction: row-reverse;
-                ;
-                    }     
 
-            .section-container.tre{
+            .section-container.due{
                 background-color:blueviolet;
                 border: 1px dotted red;
                 width: 40%;
@@ -132,8 +122,32 @@ header {
                 ;
                     }            
 
-                    section.tre{
+                    section.due{
                         background-color:yellow;
                     }
 
-        
+        .pre-section{
+            background-color: rgb(13, 168, 90);
+            /* TEST */
+            height: 400px;
+    
+            border: 1px solid black;
+            display: flex;
+            align-items: center;
+        }
+            
+        .section-container.foot{
+            background-color: yellow;
+            border: 1px dotted red;
+            width: 40%;
+            margin: auto;
+            display: flex;
+            }
+
+            .prefooter{
+                width: 60%;
+                align-items: center;
+                /* TEST */
+                height: 350px;
+
+            }
