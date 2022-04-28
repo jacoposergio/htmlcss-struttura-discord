@@ -63,7 +63,7 @@ header {
             }
 
     section{
-        background-color: rgb(13, 168, 90);
+        background-color: rgb(211, 240, 225);
         /* TEST */
         height: 300px;
 
@@ -81,7 +81,7 @@ header {
             display: flex;
             }
 
-            .section-container{
+            .section-container.uno{
             background-color: yellow;
             border: 1px dotted red;
             width: 40%;
@@ -111,3 +111,29 @@ header {
                 /* TEST  */
                 height: 250px;
             }
+            
+            .section-container.due{
+                background-color: rgb(177, 177, 65);
+                border: 1px dotted red;
+                width: 40%;
+                margin: auto;
+                display: flex;
+                flex-direction: row-reverse;
+                ;
+                    }     
+
+            .section-container.tre{
+                background-color:blueviolet;
+                border: 1px dotted red;
+                width: 40%;
+                margin: auto;
+                display: flex;
+                flex-direction: row-reverse;
+                ;
+                    }            
+
+                    section.tre{
+                        background-color:yellow;
+                    }
+
+        
