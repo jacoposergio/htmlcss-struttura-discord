@@ -5,47 +5,44 @@
     box-sizing: border-box;
 }
 
+
 /* Header */
 header {
-    background-color: goldenrod;
+    background-color: #add8e6;
     display: flex;
     align-items: center;
-
     /* TEST */
     height: 50px;
 }
 
   .header-menu{
       color: white;
-      background-color: blue;
+      background-color: #daa520;
       width: 70%;
       margin: auto;
       display: flex;
       align-items: center;
 
-      /* TEST  */
-       height: 30px;
+       
   }
   
-
-
             .logo{
-                border: 1px dotted white;
+                border: 1px dotted black;
                 width: 20%;
                 text-align: start;
-                padding: 0 5px;
+                padding: 0 10px;
 
 
             }
             .link{
-                border: 1px dotted white;
+                border: 1px dotted black;
                 width: 60%;
                 text-align: center;
                 padding: 0 5px;
 
             }
             .login{
-                border: 1px dotted white;
+                border: 1px dotted black;
                 width: 20%;
                 text-align: end;
                 padding: 0 5px;
@@ -53,37 +50,32 @@ header {
             }
 
             .jumbo-section{
-                background-color: rgb(13, 168, 90);
+                background-color: #00008b;
                 /* TEST */
                 height: 250px;
-        
-                border: 1px solid black;
                 display: flex;
                 align-items: center;
             }
 
     section{
-        background-color: rgb(211, 240, 225);
+        
         /* TEST */
         height: 300px;
-
-        border: 1px solid black;
         display: flex;
         align-items: center;
     }
        
 
          .section-container.jumbo{
-            background-color: yellow;
-            border: 1px dotted red;
+            background-color: #ee82ee;
+            border: 1px dotted black;
             width: 35%;
             margin: auto;
             display: flex;
             }
 
             .section-container{
-            background-color: yellow;
-            border: 1px dotted red;
+            background-color: #d3d3d3;
             width: 40%;
             margin: auto;
             display: flex;
@@ -99,36 +91,38 @@ header {
 
             .colonna.azzurra{
                 width: 60%;
-                background-color: lightblue;
+                background-color: #1e90ff;
                 /* TEST  */
                 height: 250px;
-
+                border: 1px dotted black;
             }
 
             .colonna.rosa{
                 width: 40%;
-                background-color: pink;
+                background-color: #ffc0cb;
                 /* TEST  */
                 height: 250px;
+                border: 1px dotted black;
             }
 
             .colonna.gialla{
                 width: calc(100% /3);
-                background-color: yellow;
+                background-color: #f08080w;
                 /* TEST  */
                 height: 270px;
+                border: 1px dotted black;
             }
 
             .colonna.verde{
                 width: calc(100% /6);
-                background-color: pink;
+                background-color: #20b2aa;
                 /* TEST  */
                 height: 270px;
+                border: 1px dotted black;
             }
 
             .section-container.due{
-                background-color:blueviolet;
-                border: 1px dotted red;
+                border: 1px dotted black;
                 width: 40%;
                 margin: auto;
                 display: flex;
@@ -137,21 +131,23 @@ header {
                     }            
 
                     section.due{
-                        background-color:yellow;
+                        background-color: #d3d3d3;
+                    }
+
+                    section.tabella{
+                        background-color: #23272a;
                     }
 
         .rettangolo-grande{
-            background-color: rgb(13, 168, 90);
+            background-color: #d3d3d3;
             /* TEST */
             height: 400px;
-    
-            border: 1px solid black;
             display: flex;
             align-items: center;
         }
             
         .section-container.rettangolo{
-            background-color: yellow;
+            background-color: #228b22;
             border: 1px dotted red;
             width: 40%;
             margin: auto;
@@ -169,8 +165,9 @@ header {
      /* FOOTER  */
 
      footer {
-        background-color: goldenrod;
-        border: 1px solid red;
+        background-color: #23272a;
+        border-top: 1px solid white;
+        border-bottom: 1px solid white;
         display: flex;
         align-content: flex-end;
         /* TEST */
@@ -179,8 +176,8 @@ header {
 
      .footer-menu{
         color: white;
-        background-color: blue;
-        width: 70%;
+        background-color: #7fffd4;
+        width: 40%;
         margin: auto;
         display: flex;
         justify-content: space-between;
@@ -189,14 +186,18 @@ header {
     }
     
     .logo-footer{
-        border: 1px dotted white;
-        text-align: start;
-        padding: 3px;
+        color: black;
+        border: 1px dotted black;
+        text-align: center;
+        margin: 5px 0;
+        padding: 0px 3px;
     }
 
     .bottone{
-        border: 1px dotted white;
+        color: black;
+        border: 1px dotted black;
         text-align: center;
-        padding: 3px;
+        margin: 5px 0;
+        padding: 0px 3px;
     }
 
