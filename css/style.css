@@ -105,9 +105,9 @@ header {
                 border: 1px dotted black;
             }
 
-            .colonna.gialla{
+            .colonna.fucsia{
                 width: calc(100% /3);
-                background-color: #f08080w;
+                background-color: #f08080;
                 /* TEST  */
                 height: 270px;
                 border: 1px dotted black;
