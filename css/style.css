@@ -126,7 +126,7 @@ header {
                         background-color:yellow;
                     }
 
-        .pre-section{
+        .rettangolo-grande{
             background-color: rgb(13, 168, 90);
             /* TEST */
             height: 400px;
@@ -136,7 +136,7 @@ header {
             align-items: center;
         }
             
-        .section-container.foot{
+        .section-container.rettangolo{
             background-color: yellow;
             border: 1px dotted red;
             width: 40%;
@@ -144,7 +144,7 @@ header {
             display: flex;
             }
 
-            .prefooter{
+            .grande{
                 width: 60%;
                 align-items: center;
                 /* TEST */
