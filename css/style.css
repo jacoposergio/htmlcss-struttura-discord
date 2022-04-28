@@ -52,16 +52,62 @@ header {
 
             }
 
-section{
-    background-color: rgb(13, 168, 90);
-    /* TEST */
-    height: 300px;
-    border: 1px solid black;
-}
- 
-    .section-container{
-        background-color: yellow;
-        border: 1px dotted red;
-        width: 40%;
-        margin: auto;
-         }
+            .jumbo-section{
+                background-color: rgb(13, 168, 90);
+                /* TEST */
+                height: 250px;
+        
+                border: 1px solid black;
+                display: flex;
+                align-items: center;
+            }
+
+    section{
+        background-color: rgb(13, 168, 90);
+        /* TEST */
+        height: 300px;
+
+        border: 1px solid black;
+        display: flex;
+        align-items: center;
+    }
+       
+
+         .section-container.jumbo{
+            background-color: yellow;
+            border: 1px dotted red;
+            width: 35%;
+            margin: auto;
+            display: flex;
+            }
+
+            .section-container{
+            background-color: yellow;
+            border: 1px dotted red;
+            width: 40%;
+            margin: auto;
+            display: flex;
+                }     
+            
+            .jumbotron{
+                width: 60%;
+                align-items: center;
+                /* TEST */
+                height: 200px;
+
+            }
+
+            .colonna.azzurra{
+                width: 60%;
+                background-color: lightblue;
+                /* TEST  */
+                height: 250px;
+
+            }
+
+            .colonna.rosa{
+                width: 40%;
+                background-color: pink;
+                /* TEST  */
+                height: 250px;
+            }
